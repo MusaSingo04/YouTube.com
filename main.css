@@ -87,6 +87,40 @@ a {
 
 }
 
+#side-menu-container {
+    position: relative;
+}
+
+#side-menu {
+    width: 250px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+#side-menu.hidden {
+    transform: translateX(-250px);
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item img {
+    width: 24px;
+    margin-right: 15px;
+}
+
+#side-menu-toggle {
+    cursor: pointer;
+    padding: 10px;
+}
 
 #side-menu img{
     width: 25px;
