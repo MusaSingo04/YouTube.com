@@ -42,4 +42,3 @@ const voiceSearchButton = document.getElementById('voice-search-button');
 voiceSearchButton.addEventListener('click', () => {
     alert('Voice search is not implemented yet!');
 });
-
