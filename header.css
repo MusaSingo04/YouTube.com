@@ -55,7 +55,8 @@
     border-bottom-left-radius: 20px;
     flex: 1;
     width: 0;
-}
+    outline: none;
+    margin-left: 15px;
 
 #Search-button{
     border-top-right-radius: 20px;
